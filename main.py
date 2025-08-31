@@ -75,5 +75,6 @@ def main():
     avg_marks, attendance, top_students = analyze_students(students, subjects)
     visualize_data(students, subjects, avg_marks, attendance)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
+
     main()
